@@ -5,7 +5,7 @@
   "description": "Adonisjs boilerplate for API server with pre-configured JWT",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "HOST=0.0.0.0 ENV_SILENT=true node server.js",
     "test": "node ace test"
   },
   "keywords": [
@@ -21,13 +21,13 @@
     "@adonisjs/bodyparser": "^2.0.3",
     "@adonisjs/cors": "^1.0.6",
     "@adonisjs/fold": "^4.0.8",
-    "@adonisjs/framework": "^5.0.7",
+    "@adonisjs/framework": "^5.0.13",
     "@adonisjs/ignitor": "^2.0.6",
     "@adonisjs/lucid": "^5.0.4",
     "pg": "^7.4.3"
   },
   "devDependencies": {
-    "eslint": "^5.0.1",
+    "eslint": "^5.16.0",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-node": "^6.0.1",
